@@ -6,4 +6,4 @@ prophet
 statsmodels
 keras
 joblib
-tensorflow
+tensorflow[and-cuda]
