@@ -6,3 +6,4 @@ prophet
 statsmodels
 keras
 joblib
+tensorflow
