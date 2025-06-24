@@ -194,7 +194,7 @@ def run_arima(data):
             current_train_data = arima_data[:train_size + i]
             model = ARIMA(current_train_data, order=(5, 1, 0))
             model_fit = model.fit()
-            forecast = model_fit.forecast(steps=1).iloc[0]
+            forecast = float(model_fit.forecast(steps=1).iloc[0])
             predictions.append(forecast)
         
         predictions_series = pd.Series(predictions, index=arima_data.index[train_size:])
