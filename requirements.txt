@@ -6,4 +6,3 @@ prophet
 statsmodels
 keras
 joblib
-os
