@@ -10,6 +10,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from prophet import Prophet
 from statsmodels.tsa.arima.model import ARIMA
 from statsmodels.tsa.statespace.sarimax import SARIMAX
+import tensorflow as tf
 from keras.models import Sequential
 from keras.layers import LSTM, Dense, Dropout, Bidirectional
 import joblib
