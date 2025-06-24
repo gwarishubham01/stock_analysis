@@ -1,0 +1,11 @@
+numpy
+matplotlib
+matplotlib.pyplot 
+yfinance
+sklearn
+prophet
+statsmodels
+keras
+tensorflow
+joblib
+os
