@@ -5,6 +5,5 @@ scikit-learn
 prophet
 statsmodels
 keras
-tensorflow
 joblib
 os
