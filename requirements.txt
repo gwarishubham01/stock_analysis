@@ -1,7 +1,7 @@
 numpy
 matplotlib
 yfinance
-sklearn
+skicit-learn
 prophet
 statsmodels
 keras
